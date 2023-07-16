@@ -1,0 +1,15 @@
+i {
+    margin: 10px;
+    transform: scale(2);
+}
+
+nav {
+    box-sizing: border-box;
+    background-color: blue;
+    max-width: 100px;
+    translate: -100px;
+}
+
+i:active+nav {
+    translate: 5px;
+}

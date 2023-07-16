@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    width: 400px;
+    background-color: blueviolet;
+    line-height: 200px;
+    text-align: center;
+    border: 20px solid;
+    color: white;
+}
+
+h1:hover {
+    border: 40px solid;
+    transition: all 0.5s ease-in;
+}

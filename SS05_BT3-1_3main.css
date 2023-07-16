@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    width: 400px;
+    background-color: blueviolet;
+    line-height: 200px;
+    text-align: center;
+}
+
+h1:hover {
+    border: 35px solid white;
+    transition: all ease-in;
+}
